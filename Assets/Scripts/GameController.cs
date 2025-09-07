@@ -67,8 +67,6 @@ public class GameController : MonoBehaviour
             {
                 highScore = score;
 
-                print(highScore);
-
                 SaveHighScore();
             }
             music.pitch = 0.7f;
